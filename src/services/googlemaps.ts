@@ -17,8 +17,8 @@ export const geoEncodeAddress = async (addressQuery:string) => {
     const apiOptions:GeocodeRequest = {
         params:{
             address:addressQuery,
-            client_id:'408849996673-r7ru7q5kv5f38mbvot73j77pbf9hjcr5.apps.googleusercontent.com',
-            client_secret:'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',
+            client_id:'',
+            client_secret:'',
     
         }
     }
